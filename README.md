@@ -4,8 +4,7 @@ Mise en place d'une infrastructure IAM / SSO avec Keycloak et l'AD, intégration
 Je me forme sur la gestion des identités et des accès (IAM) en construisant une infrastructure complète. L'idée est de comprendre les risques et opportunités de l'implémentation d'un IAM en lab, comprendre ses vulnérabilités et comment sécuriser cet environnement. Suite logique du projet : construction, attaque, durcissement et surveillance.
 
 Ce que j'ai mis en place :
-
-SSO centralisé via Keycloak fédéré sur un AD Windows Server
+* SSO centralisé via Keycloak fédéré sur un AD Windows Server
 * Intégration sur Grafana et Nextcloud avec une gestion des droits basés sur les utilisateurs de l'AD
 * Démonstration d'une attaque MITM (Man In The Middle) sur le trafic LDAP en clair pour interception des credentials et énumération complète de l'AD
 * Hardening de l'infrastructure via passage en LDAPS pour chiffrer les échanges et rendre l'interception inutile
